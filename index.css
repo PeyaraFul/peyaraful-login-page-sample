@@ -1,0 +1,54 @@
+
+body{
+    margin: 0;
+}
+header{
+    background-color: lawngreen;
+    padding: 6px;
+    text-align: center;
+    font-size: larger;
+    color:chocolate;
+    font-weight: 900;
+    letter-spacing: 2px;
+    word-spacing: 6px;
+    border: 1px solid gray;
+}
+
+.inputForm, .buttonForm, h5{
+    
+    margin:0 auto;
+    text-align: center;
+    width: 75%;
+  
+    padding: 25px;
+    
+    background-color: aqua;
+    
+}
+
+input{
+    height: 30px;
+    width: 500px;
+    display: block;
+    margin: 8px auto;
+    border-radius: 6px;
+}
+
+button{
+    
+    color: aliceblue;
+    background-color: blueviolet;
+    height: 30px;
+    width: 100px;
+   
+}
+
+
+.buttonForm{
+    display: flex;
+    justify-content:center;
+
+}
+
+
+
