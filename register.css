@@ -1,0 +1,45 @@
+.inputForm{
+    border-radius: 04px;
+    width: 50%;
+    background-cOlor: rgb(42, 187, 206);
+    padding: 20px;
+    display: bloc;
+    margin: 0 auto;
+    justify-items: center;
+    text-align: c;
+    border-bottom: 1px solid black;
+    
+   
+}
+.input{
+    margin:4px;
+    height: 30px;
+    width:100%;
+    display: block;
+    border-radius: 06px;
+}
+form{
+    border: 20px black;
+    margin: 0 auto;
+}
+
+.btnResetSubmit{
+    
+    border-radius: 04px;
+    width: 50%;
+    background-cOlor: rgb(42, 187, 206);
+    padding: 20px;
+    margin: 0 auto;
+    justify-content: space-around;
+    display: flex;
+    border-bottom: 1px solid black;
+}
+
+.btn{
+    margin:4px;
+    height: 30px;
+    width:25%;
+  
+    
+    border-radius: 06px;
+}
