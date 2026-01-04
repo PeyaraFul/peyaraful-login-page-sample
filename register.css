@@ -1,3 +1,19 @@
+
+body{
+    margin: 0;
+    background-color: rgb(165, 237, 247);;
+}
+header{
+    background-color: cadetblue;
+    height: 35px;
+    margin: 0px;
+    border-radius: 4px;
+    align-content: center;
+    padding-left: 16px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: large;
+    color: #0eff12;
+}
 .inputForm{
     border-radius: 04px;
     width: 50%;
@@ -7,16 +23,37 @@
     margin: 0 auto;
     justify-items: center;
     text-align: c;
-    border-bottom: 1px solid black;
-    
-   
+    border-bottom: 1px solid black; 
+    box-shadow: 3px 3px 6px;
+}
+span{
+    text-shadow:2px 1px 3px;
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    background-color:  rgb(125, 231, 246); 
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    width: 50%;
+    font-weight: 900;
+    border-radius: 6px;
+    color:mediumblue;
+    box-shadow: 3px 3px 6px;
 }
 .input{
     margin:4px;
     height: 30px;
     width:100%;
     display: block;
+    border: 2px solid transparent;
     border-radius: 06px;
+    box-shadow: 1px 1px 6px;
+    border-image: linear-gradient(to right, rgb(128, 0, 0),);
+    background:
+    linear-gradient(white, white) padding-box,
+    linear-gradient(to right, red, blue) border-box;
 }
 form{
     border: 20px black;
@@ -33,13 +70,14 @@ form{
     justify-content: space-around;
     display: flex;
     border-bottom: 1px solid black;
+    box-shadow: 3px 3px 6px;
 }
 
 .btn{
-    margin:4px;
+    
     height: 30px;
     width:25%;
   
-    
+    box-shadow: 1px 1px 6px;
     border-radius: 06px;
 }
